@@ -45,8 +45,22 @@ nav {
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
+.nav-links a:hover ,.nav-links a.active{
     color: #007bff;
+}
+.profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f0f4ff;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.profile-btn:hover {
+    background-color: #e6f0ff;
+    transform: translateY(-2px);
 }
 
 .hero {

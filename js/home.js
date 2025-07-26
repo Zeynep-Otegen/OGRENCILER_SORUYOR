@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const ctaButton = document.querySelector('.cta-button');
         if (ctaButton) {
             ctaButton.addEventListener('click', function() {
-                alert('Daha fazla bilgi için tıkladınız!');
+//alert('Daha fazla bilgi için tıkladınız!'); eğer sayfaya yönlendirmeden önce mesaj gelmesi isteniyorsa kullanılır.
             });
         }
 
